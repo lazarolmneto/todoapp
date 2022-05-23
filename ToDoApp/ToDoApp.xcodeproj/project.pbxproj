@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32BC2D3283B7C1B009F510B /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32BC2D2283B7C1B009F510B /* Navigator.swift */; };
+		D32BC2D7283B7C2C009F510B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32BC2D5283B7C2C009F510B /* Assets.xcassets */; };
+		D32BC2D8283B7C2C009F510B /* FontGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32BC2D6283B7C2C009F510B /* FontGenerator.swift */; };
 		D37294ED283AB37300D1F663 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37294EA283AB37300D1F663 /* StorageService.swift */; };
 		D37294EE283AB37300D1F663 /* RemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37294EB283AB37300D1F663 /* RemoteService.swift */; };
 		D37294EF283AB37300D1F663 /* InternetMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37294EC283AB37300D1F663 /* InternetMonitor.swift */; };
@@ -31,9 +34,6 @@
 		D3729524283ABE1000D1F663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3729523283ABE1000D1F663 /* Main.storyboard */; };
 		D3729528283AC07C00D1F663 /* TodoFirebaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3729526283AC07B00D1F663 /* TodoFirebaseTest.swift */; };
 		D3729529283AC07C00D1F663 /* TodoRealmTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3729527283AC07B00D1F663 /* TodoRealmTest.swift */; };
-		D372952B283AC46200D1F663 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372952A283AC46200D1F663 /* Navigator.swift */; };
-		D372952F283AC47000D1F663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D372952D283AC47000D1F663 /* Assets.xcassets */; };
-		D3729530283AC47000D1F663 /* FontGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372952E283AC47000D1F663 /* FontGenerator.swift */; };
 		D3729534283AC47C00D1F663 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3729532283AC47C00D1F663 /* ListItem.swift */; };
 		D3729535283AC47C00D1F663 /* ListItemPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3729533283AC47C00D1F663 /* ListItemPriority.swift */; };
 		D3AEB59127FF64710007ED6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AEB59027FF64710007ED6A /* AppDelegate.swift */; };
@@ -61,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D32BC2D2283B7C1B009F510B /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		D32BC2D5283B7C2C009F510B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32BC2D6283B7C2C009F510B /* FontGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontGenerator.swift; sourceTree = "<group>"; };
 		D37294EA283AB37300D1F663 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		D37294EB283AB37300D1F663 /* RemoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteService.swift; sourceTree = "<group>"; };
 		D37294EC283AB37300D1F663 /* InternetMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetMonitor.swift; sourceTree = "<group>"; };
@@ -77,9 +80,6 @@
 		D3729525283AC07A00D1F663 /* ToDoAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		D3729526283AC07B00D1F663 /* TodoFirebaseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoFirebaseTest.swift; sourceTree = "<group>"; };
 		D3729527283AC07B00D1F663 /* TodoRealmTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoRealmTest.swift; sourceTree = "<group>"; };
-		D372952A283AC46200D1F663 /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Navigator.swift; path = ../../../../../../ToDoApp/ToDoApp/Navigator.swift; sourceTree = "<group>"; };
-		D372952D283AC47000D1F663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D372952E283AC47000D1F663 /* FontGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontGenerator.swift; sourceTree = "<group>"; };
 		D3729532283AC47C00D1F663 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		D3729533283AC47C00D1F663 /* ListItemPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemPriority.swift; sourceTree = "<group>"; };
 		D3AEB58D27FF64710007ED6A /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +127,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D32BC2D4283B7C2C009F510B /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				D32BC2D5283B7C2C009F510B /* Assets.xcassets */,
+				D32BC2D6283B7C2C009F510B /* FontGenerator.swift */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
 		D37294E9283AB37300D1F663 /* DB */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,16 +180,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		D372952C283AC47000D1F663 /* Resouces */ = {
-			isa = PBXGroup;
-			children = (
-				D372952D283AC47000D1F663 /* Assets.xcassets */,
-				D372952E283AC47000D1F663 /* FontGenerator.swift */,
-			);
-			name = Resouces;
-			path = ../../../../../../ToDoApp/ToDoApp/Resouces;
-			sourceTree = "<group>";
-		};
 		D3729531283AC47C00D1F663 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,14 +214,14 @@
 			isa = PBXGroup;
 			children = (
 				D3729523283ABE1000D1F663 /* Main.storyboard */,
-				D372952A283AC46200D1F663 /* Navigator.swift */,
+				D32BC2D2283B7C1B009F510B /* Navigator.swift */,
 				D3729503283AB41000D1F663 /* ListItemDetailViewController.swift */,
 				D3729501283AB41000D1F663 /* ListItemDetailViewLogic.swift */,
 				D3729504283AB41000D1F663 /* ListTaskControllerLogic.swift */,
 				D3729502283AB41000D1F663 /* ListTaskViewController.swift */,
 				D3729521283ABBEF00D1F663 /* GoogleService-Info.plist */,
+				D32BC2D4283B7C2C009F510B /* Resouces */,
 				D3729531283AC47C00D1F663 /* Models */,
-				D372952C283AC47000D1F663 /* Resouces */,
 				D37294F9283AB38100D1F663 /* Extensions */,
 				D37294F0283AB37900D1F663 /* Components */,
 				D37294E9283AB37300D1F663 /* DB */,
@@ -375,8 +374,8 @@
 			files = (
 				D3AEB59D27FF64750007ED6A /* LaunchScreen.storyboard in Resources */,
 				D3729522283ABBEF00D1F663 /* GoogleService-Info.plist in Resources */,
+				D32BC2D7283B7C2C009F510B /* Assets.xcassets in Resources */,
 				D3729524283ABE1000D1F663 /* Main.storyboard in Resources */,
-				D372952F283AC47000D1F663 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,9 +401,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D37294FB283AB38200D1F663 /* ViewControllerExtensions.swift in Sources */,
+				D32BC2D8283B7C2C009F510B /* FontGenerator.swift in Sources */,
+				D32BC2D3283B7C1B009F510B /* Navigator.swift in Sources */,
 				D3729535283AC47C00D1F663 /* ListItemPriority.swift in Sources */,
-				D3729530283AC47000D1F663 /* FontGenerator.swift in Sources */,
-				D372952B283AC46200D1F663 /* Navigator.swift in Sources */,
 				D3729506283AB41000D1F663 /* ListTaskViewController.swift in Sources */,
 				D3729534283AC47C00D1F663 /* ListItem.swift in Sources */,
 				D37294ED283AB37300D1F663 /* StorageService.swift in Sources */,
